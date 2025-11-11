@@ -14,7 +14,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://airbnb-project-frontend-adr7.onrender.com",
+    origin:"https://airbnb-project-8.onrender.com/login",
     credentials:true
 }))
 
